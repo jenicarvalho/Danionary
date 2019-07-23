@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.js": "/Danionary/static/js/main.163f3eed.chunk.js",
+    "main.js.map": "/Danionary/static/js/main.163f3eed.chunk.js.map",
+    "runtime~main.js": "/Danionary/static/js/runtime~main.af4e209b.js",
+    "runtime~main.js.map": "/Danionary/static/js/runtime~main.af4e209b.js.map",
+    "static/js/2.c650c6e7.chunk.js": "/Danionary/static/js/2.c650c6e7.chunk.js",
+    "static/js/2.c650c6e7.chunk.js.map": "/Danionary/static/js/2.c650c6e7.chunk.js.map",
+    "index.html": "/Danionary/index.html",
+    "precache-manifest.9bf5bdea7d4989bf728d1582092cca07.js": "/Danionary/precache-manifest.9bf5bdea7d4989bf728d1582092cca07.js",
+    "service-worker.js": "/Danionary/service-worker.js",
+    "static/media/logo-danionary.png": "/Danionary/static/media/logo-danionary.afc543fc.png"
+  }
+}
