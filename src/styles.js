@@ -16,7 +16,11 @@ const getBackground = () =>
 
 export const Head = styled.header`
   text-align: center;
-  font-size: 30px;
+
+  img {
+    width: 250px;
+    margin-top: 1em
+  }
 `;
 export const Cards = styled.section`
   display: grid;
