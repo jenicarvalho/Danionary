@@ -16,7 +16,7 @@
       "synonyms": "Muito bom, sucesso, etc."
     },
     {
-      "name": "Da uns Box",
+      "name": "Da uns Boxe",
       "definition": "Ato ou efeito de bater em algum sujeito.",
       "synonyms": "Bater, brigar, etc."
     },
@@ -29,6 +29,11 @@
       "name": "00quieto",
       "definition": "Do latim 'quiescis', algo sem custo ou gratuito.",
       "synonyms": "De graça, livre de gastos, etc."
+    },
+    {
+      "name": "Pique",
+      "definition": "Ato ou efeito de identificar algo parecido.",
+      "synonyms": "Parecido."
     }
   ]
 }
