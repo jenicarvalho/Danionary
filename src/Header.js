@@ -1,10 +1,12 @@
 import React from "react";
 import { Head } from "./styles";
 
+import logo from "./images/logo-danionary.png"
+
 export default function Header() {
   return (
     <Head>
-      <h1>Danionary</h1>
+      <img src={logo} alt="logo" />
     </Head>
   );
 }
