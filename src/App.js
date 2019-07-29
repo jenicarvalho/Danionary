@@ -14,7 +14,7 @@ class App extends Component {
   }
 
   fetchWords() {
-    fetch('http://localhost:3005/items')
+    fetch('http://jenicarvalho.com.br/danionary/api.php')
     .then(res => res.json())
     .then(data => this.setState({words: data}));
   }
