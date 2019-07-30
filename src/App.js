@@ -29,9 +29,8 @@ class App extends Component {
         <GlobalStyle />
         <Header />
         <Cards>
-        { this.state.words.map(word => (
-
-          <div>
+        { this.state.words.map((word, key) => (
+          <div key={key}>
             <h2>{word.name}</h2>
             <p>
               <strong>Definição:</strong> {word.definition}
