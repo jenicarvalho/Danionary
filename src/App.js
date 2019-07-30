@@ -18,6 +18,7 @@ class App extends Component {
   fetchWords() {
     fetch('./dictionary.json')
     .then(res => res.json())
+    .then(returnDictionaries)
     .then(data => this.setState({words: data}));
   }
 
