@@ -19,7 +19,7 @@ class App extends Component {
     fetch('./dictionary.json')
     .then(res => res.json())
     .then(returnDictionaries)
-    .then(data => this.setState({words: data}));
+    .then(words => this.setState({ words }));
   }
 
   render() {
