@@ -3,6 +3,8 @@ import Header from "./Header";
 import { Cards } from "./styles";
 import GlobalStyle from "./globalStyles";
 
+const returnDictionaries = (response) => response.items;
+
 class App extends Component {
 
   state = {
@@ -14,9 +16,10 @@ class App extends Component {
   }
 
   fetchWords() {
-    fetch('http://jenicarvalho.com.br/danionary/api.php')
+    fetch('./dictionary.json')
     .then(res => res.json())
-    .then(data => this.setState({words: data}));
+    .then(returnDictionaries)
+    .then(words => this.setState({ words }));
   }
 
   render() {
@@ -26,9 +29,8 @@ class App extends Component {
         <GlobalStyle />
         <Header />
         <Cards>
-        { this.state.words.map(word => (
-
-          <div>
+        { this.state.words.map((word, key) => (
+          <div key={key}>
             <h2>{word.name}</h2>
             <p>
               <strong>Definição:</strong> {word.definition}
