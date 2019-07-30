@@ -14,7 +14,7 @@ class App extends Component {
   }
 
   fetchWords() {
-    fetch('http://jenicarvalho.com.br/danionary/api.php')
+    fetch('./dictionary.json')
     .then(res => res.json())
     .then(data => this.setState({words: data}));
   }
