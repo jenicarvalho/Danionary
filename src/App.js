@@ -3,6 +3,8 @@ import Header from "./Header";
 import { Cards } from "./styles";
 import GlobalStyle from "./globalStyles";
 
+const returnDictionaries = (response) => response.items;
+
 class App extends Component {
 
   state = {
